@@ -26,7 +26,6 @@ artifacts:
 deploy:
 # Publish VSIX packages
 - provider: NuGet
-  #server: https://www.myget.org/F/aspnet-mvc-boilerplate/vsix/
   server: https://www.myget.org/feed/Packages/ilyaf-test-packages
   api_key:
     secure: e6Yao0cLeVCh1ISg9t6VC+E9PvGaMoZnELUYS0Ew3wtl6WDeCX9Wf5Fkl7l+5Bck
